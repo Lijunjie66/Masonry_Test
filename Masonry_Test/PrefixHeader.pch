@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  Masonry_Test
+//
+//  Created by Geraint on 2018/11/20.
+//  Copyright © 2018 kilolumen. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+// 不要忘了 配置文件，
+/**
+    a. 找到 Project > Build Settings 搜索 “Prefix Header“；
+ 
+    b. 项目名字/PrefixHeader.pch (如 weihuan/PrefixHeader.pch )；
+ 
+    c. 将Precompile Prefix Header改为YES，预编译后的pch文件会被缓存起来，可以提高编译速度；
+ */
+#import <Masonry/Masonry.h>
+
+#endif 
